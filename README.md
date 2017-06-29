@@ -20,23 +20,23 @@ Com os recursos do **TON** o kit possui: Carregador integrado + Monitor de bater
 
 # Primeiros Passos
 
-* Execute o código de testes do robô:
-  * O **TON-BOT** é enviado com o código [ton-bot_teste](https://github.com/iotontech/ton-bot_teste) já gravado!
-  * Então, conecte o robô em uma porta USB e abra o terminal (baudrate 115200)
-  * São apresentadas as leituras de todos os sensores
-  * Para testar os motores basta ligar a chave *MOTORS* e pressionar o botão *USER*
-  * **Para recarregar a bateria:** conecte o robô no carregador com o botão *USER* pressionado (pode liberá-lo logo em seguida). Quando o LED estiver verde e piscando indica que a bateria já está carregada
-* Instalação da **IOTON-IDE**:
-  * https://github.com/iotontech/IOTON-IDE
-* Programando seu robô:
-  * Faça uma cópia do [código de teste](https://github.com/iotontech/ton-bot_teste) e utilize ele de referência
-  * Abra o **Editor Atom** e adicione a pasta do projeto: `File→Add Project Folder...`
-  * Edite o arquivo *main.cpp*
-* Procedimentos para gravação do código no robô:
-  * Colocar o TON no modo **BOOT**: pressionar o botão *RESET/BOOT* por mais de 1s
-  * Realizar o **upload**: clicar no botão *“PlatformIO: Upload”* (icone: seta para direita)
-  * Aguardar o término do processo
-  * Voltar o TON para a execução: pressione rapidamente o botão *RESET/BOOT*
+1. Execute o código de testes do robô:
+    * O **TON-BOT** é enviado com o código [ton-bot_teste](https://github.com/iotontech/ton-bot_teste) já gravado!
+    * Então, conecte o robô em uma porta USB e abra o terminal (baudrate 115200)
+    * São apresentadas as leituras de todos os sensores
+    * Para testar os motores basta ligar a chave *MOTORS* e pressionar o botão *USER*
+    * **Para recarregar a bateria:** conecte o robô no carregador com o botão *USER* pressionado (pode liberá-lo logo em seguida). Quando o LED estiver verde e piscando indica que a bateria já está carregada
+2. Continue os passos a seguir para a instalação da *IOTON-IDE* **OU** siga este [tutorial](https://github.com/iotontech/ioton-mbed-online) para usar o *mbed Online Compiler*]
+    * https://github.com/iotontech/IOTON-IDE
+3. Programando seu robô:
+    * Faça uma cópia do [código de teste](https://github.com/iotontech/ton-bot_teste) e utilize ele de referência
+    * Abra o **Editor Atom** e adicione a pasta do projeto: `File→Add Project Folder...`
+    * Edite o arquivo *main.cpp*
+4. Procedimentos para gravação do código no robô:
+    * Colocar o TON no modo **BOOT**: pressionar o botão *RESET/BOOT* por mais de 1s
+    * Realizar o **upload**: clicar no botão *“PlatformIO: Upload”* (icone: seta para direita)
+    * Aguardar o término do processo
+    * Voltar o TON para a execução: pressione rapidamente o botão *RESET/BOOT*
 
 
 # License
