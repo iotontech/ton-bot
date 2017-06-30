@@ -26,7 +26,7 @@ Com os recursos do **TON** o kit possui: Carregador integrado + Monitor de bater
     * São apresentadas as leituras de todos os sensores
     * Para testar os motores basta ligar a chave *MOTORS* e pressionar o botão *USER*
     * **Para recarregar a bateria:** conecte o robô no carregador com o botão *USER* pressionado (pode liberá-lo logo em seguida). Quando o LED estiver verde e piscando indica que a bateria já está carregada
-2. Continue os passos a seguir para a instalação da *IOTON-IDE* **OU** siga este [tutorial](https://github.com/iotontech/ioton-mbed-online) para usar o *mbed Online Compiler*]
+2. Continue os passos a seguir para a instalação da *IOTON-IDE* **OU** siga este [tutorial](https://github.com/iotontech/ioton-mbed-online) para usar o *mbed Online Compiler*
     * https://github.com/iotontech/IOTON-IDE
 3. Programando seu robô:
     * Faça uma cópia do [código de teste](https://github.com/iotontech/ton-bot_teste) e utilize ele de referência
